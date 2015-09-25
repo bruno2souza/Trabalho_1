@@ -3,15 +3,15 @@
 void bolha(int n, int*v);  //protótipo da função para ordenação
 void main(){  
 	int n, *v, m, i, cond=0;
-	printf("diga o numero de inteiros que voce vai entrar nesta lista: ");  //o programa pergunta ao usuario a quantidade de elementos que tera no vetor 
+	printf("diga o numero de inteiros que voce vai entrar nesta lista: ");  //o programa pergunta ao usuario a quantidade de elementos que terá no vetor 
 	scanf("%d", &n);
 	if(n<1){
 		printf("Por favor, escolha um número de inteiros maior ou igual a 1, para que o programa funcione:\n");
 		scanf("%d", &n);
 	}
 		v=(int *) malloc(n*sizeof(int));  //depois que o usuario informa o tamanho do vetor, o programa separa, dinamicamente, um espaço para este.
-	printf("entre com os inteiros da lista, separando-os pela tecla enter:\n");  
-	for(m=0;m<n;m++){       //aqui haverá a colocação de cada elemento dado pelo usuario no vetor
+	printf("entre com os inteiros da lista, separando-os pela tecla Enter:\n");  
+	for(m=0;m<n;m++){       //aqui haverá a alocação de cada elemento dado pelo usuario no vetor
 		scanf("%d", &v[m]);
 	}
 	bolha (n, v);   //ocorre a chamada da função bolha para a ordenação do vetor. Uma vez ordenado, a procura pelo elemento unico se torna mais facil
@@ -36,11 +36,7 @@ void main(){
 	if(cond==0){ //se "cond" acabar o programa com valor 0, como foi atribuido a ele inicialmente, isso significará dizer que nao foi encontrado elemento unico em lugar nenhum
 		printf("Nao ha elementos unicos! Vlw Flw\n"); //por isso podemos dizer ao usuario que não há elementos unicos na lista por ele fornecida
 	}
-	printf("Esta eh a lista ordenada: ");
-	for(m=0;m<n;m++){
-		printf("%d ", v[m]);
 	}
-    }
 	free(v);  //no fim de tudo, ocorre a liberação de memória do vetor v.
 }
 void bolha(int n, int *v){  //a função bolha recebe como parametros o tamanho n da lista, e o endereço do primeiro elemento da lista
