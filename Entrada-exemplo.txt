@@ -1,0 +1,11 @@
+Entrada-exemplo:
+18
+9
+23
+18
+10
+198
+18
+23
+
+Como pode-se notar, há 8 elementos nesta lista. Por isso, informe ao programa um tamanho de lista “8” quando for perguntado.

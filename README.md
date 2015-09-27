@@ -1,5 +1,9 @@
+-----------------------------------------------------READ ME--------------------------------------------------------------
 # Trabalho_1
 Trabalho 1 de LPA
+Aluno: Bruno Henrique de Souza   nº USP: 9311685    GitHub User Name: bruno2souza
+
+
 ==== INSTRUÇÔES DE USO DOS PROGRAMAS ====
 
 1) Closest pair:
@@ -17,7 +21,7 @@ Trabalho 1 de LPA
 
 2) Element uniqueness:
    2.1- O programa inicia-se perguntando ao usuário o tamanho que terá a lista que ele deseja entrar. Esse valor fornecido pelo usuário
-        determinará o espaço reservado para o vetor que comportará a lista em questão.
+        determinará o espaço reservado para o vetor que comportará a lista em questão. Deve-se lembrar que o programa funciona apenas para valores inteiros.
    2.2- Com a memória já reservada, o programa pede ao usuário que ele entre com os valores da lista a ser analisada, deixando claro que é preciso
         separar os elementos pela tecla Enter.
    2.3- Com a lista fornecida pelo usuário, o programa fará a ordenação desta, através do método bubble sort, recursivamente.
@@ -32,7 +36,7 @@ Trabalho 1 de LPA
 
 3) Frequency distribution:
    3.1- O programa inicia-se pedindo ao usuário o tamanho da lista que vai ser posta em questão. O valor fornecido é importante para que haja
-        a alocação dinâmica de memória, do tamanho exato da lista a ser avaliada.
+        a alocação dinâmica de memória, do tamanho exato da lista a ser avaliada. Mais uma vez, o programa funciona apenas para inteiros.
    3.2- Feito isso, o programa pede para que o usuário entre com os elementos pertencentes a lista, deixando claro que eles devem ser separados
         pela tecla Enter.
    3.3- O programa reservará dois vetores de mesmo tamanho (aquele fornecido pelo usuário em 3.1), um que comportará a lista em questão, e outro
@@ -48,3 +52,25 @@ Trabalho 1 de LPA
    OBS: O programa foi feito para responder a casos onde todos os elementos aparecem uma única vez, e caso o usuário forneça um tamanho de lista 
         incompatível com o propósito do programa. Ademais, caso hajam dois elementos de mesma frequência, o programa informará apenas aquele que primeiro
         aparece na lista.
+
+
+==== INFORMAÇÕES BÁSICAS DOS PROGRAMAS ====
+
+Os códigos fonte dos programas foram compilados em C (.c), no ambiente de desenvolvimento Dev-C++, versão 5.10.0.0;
+
+O compilador dos executáveis (.exe) foi TDM-GCC 4.8.1 64-bit Release;
+
+Os parâmetros de compilação são os padrões do ambiente;
+
+As plataformas de compilação da versão binária foram MinGW64\bin e MinGW54\x86_64-w64-mingw32\bin;
+
+As bibliotecas utilizadas em todos os programas foram stdio.h e stdlib.h;
+
+No repositório encontra-se uma pasta chamada "Entradas-exemplo". Nela estão escritas, em formato .txt, exemplos de entradas para serem testadas
+pelos programas;
+
+Os códigos fonte e seus executáveis se encontram no repositório desse trabalho;
+
+Para a compilação, os programas devem ser compilados da maneira padrão do ambiente Dev-C++. Para tal, basta ir ao menu Executar, e clicar em Compilar. 
+Outros ambientes podem se dar por meios diferentes, como a tecla "Build", ou outros. Contudo, o princípio da compilação é o mesmo.
+Uma vez compilado, o programa está pronto para ser executado.
