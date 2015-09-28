@@ -1,98 +1,98 @@
 -----------------------------------------------------READ ME--------------------------------------------------------------
 # Trabalho_1
 Trabalho 1 de LPA
-Aluno: Bruno Henrique de Souza   n∫ USP: 9311685    GitHub User Name: bruno2souza
+Aluno: 1)Bruno Henrique de Souza   n¬∫ USP: 9311685    GitHub User Name: bruno2souza
+       2)Bruno √Åvila  n¬∫ USP: 9012667
 
-
-==== INSTRU«‘ES DE USO DOS PROGRAMAS ====
+==== INSTRU√á√îES DE USO DOS PROGRAMAS ====
 
 1) Closest pair:
    
-1.1- O programa imprimir· uma mensagem que perguntar· ao usu·rio a quantidade de valores inteiros que ele deseja entrar. 
-        Esse n˙mero determinar· o tamanho da memÛria separada dinamicamente para comportar o vetor, ou a lista, de elementos inteiros a ser inserido.
+1.1- O programa imprimir√° uma mensagem que perguntar√° ao usu√°rio a quantidade de valores inteiros que ele deseja entrar. 
+        Esse n√∫mero determinar√° o tamanho da mem√≥ria separada dinamicamente para comportar o vetor, ou a lista, de elementos inteiros a ser inserido.
 
-   1.2- Feito isso, o programa pedir· ao usu·rio para entrar com tais valores, deixando claro que ele deve separar os respectivos elementos,
+   1.2- Feito isso, o programa pedir√° ao usu√°rio para entrar com tais valores, deixando claro que ele deve separar os respectivos elementos,
         com a tecla Enter.
    
-1.3- Uma vez que a lista foi totalmente entrada, ocorrer· a ordenaÁ„o dos elementos da mesma, recursivamente, pelo mÈtodo bubble sort.
+1.3- Uma vez que a lista foi totalmente entrada, ocorrer√° a ordena√ß√£o dos elementos da mesma, recursivamente, pelo m√©todo bubble sort.
    
-1.4- Com a lista agora ordenada, o programa realizar· comparaÁıes entre elementos consecutivos do vetor, a fim de encontrar a menor diferenÁa
+1.4- Com a lista agora ordenada, o programa realizar√° compara√ß√µes entre elementos consecutivos do vetor, a fim de encontrar a menor diferen√ßa
         entre dois elementos distintos da lista.
    
-1.5- ApÛs encontrar a menor diferenÁa, o programa far· a saÌda ao usu·rio de quanto È tal diferenÁa, e de quais valores È tal diferenÁa.
+1.5- Ap√≥s encontrar a menor diferen√ßa, o programa far√° a sa√≠da ao usu√°rio de quanto √© tal diferen√ßa, e de quais valores √© tal diferen√ßa.
    
-1.6- Ao fim de tudo, ocorre a liberaÁ„o de memÛria do vetor usado para guardar a lista.
+1.6- Ao fim de tudo, ocorre a libera√ß√£o de mem√≥ria do vetor usado para guardar a lista.
    
-OBS: O programa funciona apenas para uma lista de pelo menos dois elementos. Caso o usu·rio escolha uma lista de tamanho de 1 ou menos elementos,
-        o programa ir· emitir uma mensagem falando para ele escolher um tamanho de lista que funcione para o programa.
+OBS: O programa funciona apenas para uma lista de pelo menos dois elementos. Caso o usu√°rio escolha uma lista de tamanho de 1 ou menos elementos,
+        o programa ir√° emitir uma mensagem falando para ele escolher um tamanho de lista que funcione para o programa.
 
 2) Element uniqueness:
    
-2.1- O programa inicia-se perguntando ao usu·rio o tamanho que ter· a lista que ele deseja entrar. Esse valor fornecido pelo usu·rio
-        determinar· o espaÁo reservado para o vetor que comportar· a lista em quest„o. Deve-se lembrar que o programa funciona apenas para valores inteiros.
+2.1- O programa inicia-se perguntando ao usu√°rio o tamanho que ter√° a lista que ele deseja entrar. Esse valor fornecido pelo usu√°rio
+        determinar√° o espa√ßo reservado para o vetor que comportar√° a lista em quest√£o. Deve-se lembrar que o programa funciona apenas para valores inteiros.
    
-2.2- Com a memÛria j· reservada, o programa pede ao usu·rio que ele entre com os valores da lista a ser analisada, deixando claro que È preciso
+2.2- Com a mem√≥ria j√° reservada, o programa pede ao usu√°rio que ele entre com os valores da lista a ser analisada, deixando claro que √© preciso
         separar os elementos pela tecla Enter.
    
-2.3- Com a lista fornecida pelo usu·rio, o programa far· a ordenaÁ„o desta, atravÈs do mÈtodo bubble sort, recursivamente.
+2.3- Com a lista fornecida pelo usu√°rio, o programa far√° a ordena√ß√£o desta, atrav√©s do m√©todo bubble sort, recursivamente.
    
-2.4- Uma vez que a lista est· ordenada, o program· iniciar· a busca por elementos ˙nicos. Para tal, ele compara um dado elemento da lista com seus
-        vizinhos (fazendo um caso especial para o primeiro e o ˙ltimo elementos, para n„o compar·-los com lixo). Caso um dado elemento seja diferente
-        de ambos vizinhos, pode-se afirmar que ele È ˙nico na lista toda, pois esta se encontra ordenada.
+2.4- Uma vez que a lista est√° ordenada, o program√° iniciar√° a busca por elementos √∫nicos. Para tal, ele compara um dado elemento da lista com seus
+        vizinhos (fazendo um caso especial para o primeiro e o √∫ltimo elementos, para n√£o compar√°-los com lixo). Caso um dado elemento seja diferente
+        de ambos vizinhos, pode-se afirmar que ele √© √∫nico na lista toda, pois esta se encontra ordenada.
    
-2.5- A cada elemento ˙nico encontrado, o programa imitir· uma mensagem falando que tal n˙mero È ˙nico na lista.
+2.5- A cada elemento √∫nico encontrado, o programa imitir√° uma mensagem falando que tal n√∫mero √© √∫nico na lista.
    
-2.6- Ao final de tudo, o programa libera a memÛria usada para armazenar a lista em quest„o.
+2.6- Ao final de tudo, o programa libera a mem√≥ria usada para armazenar a lista em quest√£o.
    
-OBS: O programa est· preparado para as diferentes situaÁıes em que ele pode ser posto, tais quais n„o haver nenhum elemento ˙nico na lista,
-        ou a lista ser de apenas um elemento (ou seja, este nao ter vizinhos para ser comparado), ou atÈ se o usu·rio informar um tamanho 
+OBS: O programa est√° preparado para as diferentes situa√ß√µes em que ele pode ser posto, tais quais n√£o haver nenhum elemento √∫nico na lista,
+        ou a lista ser de apenas um elemento (ou seja, este nao ter vizinhos para ser comparado), ou at√© se o usu√°rio informar um tamanho 
         de lista menor do que 1.
 
 3) Frequency distribution:
    
-3.1- O programa inicia-se pedindo ao usu·rio o tamanho da lista que vai ser posta em quest„o. O valor fornecido È importante para que haja
-        a alocaÁ„o din‚mica de memÛria, do tamanho exato da lista a ser avaliada. Mais uma vez, o programa funciona apenas para inteiros.
+3.1- O programa inicia-se pedindo ao usu√°rio o tamanho da lista que vai ser posta em quest√£o. O valor fornecido √© importante para que haja
+        a aloca√ß√£o din√¢mica de mem√≥ria, do tamanho exato da lista a ser avaliada. Mais uma vez, o programa funciona apenas para inteiros.
    
-3.2- Feito isso, o programa pede para que o usu·rio entre com os elementos pertencentes a lista, deixando claro que eles devem ser separados
+3.2- Feito isso, o programa pede para que o usu√°rio entre com os elementos pertencentes a lista, deixando claro que eles devem ser separados
         pela tecla Enter.
    
-3.3- O programa reservar· dois vetores de mesmo tamanho (aquele fornecido pelo usu·rio em 3.1), um que comportar· a lista em quest„o, e outro
-        para registrar as frequÍncias em que cada elemento da lista aparece (vamos chamar o vetor da lista de v, e o vetor das frequÍncias de f).
+3.3- O programa reservar√° dois vetores de mesmo tamanho (aquele fornecido pelo usu√°rio em 3.1), um que comportar√° a lista em quest√£o, e outro
+        para registrar as frequ√™ncias em que cada elemento da lista aparece (vamos chamar o vetor da lista de v, e o vetor das frequ√™ncias de f).
    
-3.4- ComeÁando do primeiro elemento de v, o programa o deixar· como modelo, e ent„o realizar· uma busca por toda a lista, e a cada vez que 
-        encontrar um elemento igual ao modelo, um contador ir· ser acrescentado em +1. Ao final da lista, o valor registrado pelo contador mostrar·
-        a frequÍncia que o elemento modelo aparece no vetor. Tal valor ser· registrado na mesma posiÁ„o que o modelo tem em v, no vetor f
-        (por exemplo, se o primeiro elemento de v aparece 9 vezes na lista toda, a primeira posiÁ„o de f guardar· o valor "9").
+3.4- Come√ßando do primeiro elemento de v, o programa o deixar√° como modelo, e ent√£o realizar√° uma busca por toda a lista, e a cada vez que 
+        encontrar um elemento igual ao modelo, um contador ir√° ser acrescentado em +1. Ao final da lista, o valor registrado pelo contador mostrar√°
+        a frequ√™ncia que o elemento modelo aparece no vetor. Tal valor ser√° registrado na mesma posi√ß√£o que o modelo tem em v, no vetor f
+        (por exemplo, se o primeiro elemento de v aparece 9 vezes na lista toda, a primeira posi√ß√£o de f guardar√° o valor "9").
    
-3.5- Uma vez que o mesmo processo foi com todos os termos de v, teremos um vetor f que mostrar· a distribuiÁ„o de frequÍncia de cada elemento em v.
-        Neste momento, o programa procurar· em f o maior valor, ou seja, qual È a posiÁ„o do elemento de maior frequÍncia de v.
+3.5- Uma vez que o mesmo processo foi com todos os termos de v, teremos um vetor f que mostrar√° a distribui√ß√£o de frequ√™ncia de cada elemento em v.
+        Neste momento, o programa procurar√° em f o maior valor, ou seja, qual √© a posi√ß√£o do elemento de maior frequ√™ncia de v.
    
-3.6- Uma vez encontrado, o programa imitir· uma saÌda informando qual È o elemento da lista de maior frequÍncia, e quanto È tal frequÍncia.
+3.6- Uma vez encontrado, o programa imitir√° uma sa√≠da informando qual √© o elemento da lista de maior frequ√™ncia, e quanto √© tal frequ√™ncia.
    
-3.7- Por fim, o programa libera a memÛria usada para alocar v e f.
+3.7- Por fim, o programa libera a mem√≥ria usada para alocar v e f.
    
-OBS: O programa foi feito para responder a casos onde todos os elementos aparecem uma ˙nica vez, e caso o usu·rio forneÁa um tamanho de lista 
-        incompatÌvel com o propÛsito do programa. Ademais, caso hajam dois elementos de mesma frequÍncia, o programa informar· apenas aquele que primeiro
+OBS: O programa foi feito para responder a casos onde todos os elementos aparecem uma √∫nica vez, e caso o usu√°rio forne√ßa um tamanho de lista 
+        incompat√≠vel com o prop√≥sito do programa. Ademais, caso hajam dois elementos de mesma frequ√™ncia, o programa informar√° apenas aquele que primeiro
         aparece na lista.
 
 
-==== INFORMA«’ES B¡SICAS DOS PROGRAMAS ====
+==== INFORMA√á√ïES B√ÅSICAS DOS PROGRAMAS ====
 
-Os cÛdigos fonte dos programas foram compilados em C (.c), no ambiente de desenvolvimento Dev-C++, vers„o 5.10.0.0;
+Os c√≥digos fonte dos programas foram compilados em C (.c), no ambiente de desenvolvimento Dev-C++, vers√£o 5.10.0.0;
 
-O compilador dos execut·veis (.exe) foi TDM-GCC 4.8.1 64-bit Release;
+O compilador dos execut√°veis (.exe) foi TDM-GCC 4.8.1 64-bit Release;
 
-Os par‚metros de compilaÁ„o s„o os padrıes do ambiente;
+Os par√¢metros de compila√ß√£o s√£o os padr√µes do ambiente;
 
-As plataformas de compilaÁ„o da vers„o bin·ria foram MinGW64\bin e MinGW54\x86_64-w64-mingw32\bin;
+As plataformas de compila√ß√£o da vers√£o bin√°ria foram MinGW64\bin e MinGW54\x86_64-w64-mingw32\bin;
 
 As bibliotecas utilizadas em todos os programas foram stdio.h e stdlib.h;
 
-No repositÛrio encontra-se uma pasta chamada "Entradas-exemplo". Nela est„o escritas, em formato .txt, exemplos de entradas para serem testadas
+No reposit√≥rio encontra-se uma pasta chamada "Entradas-exemplo". Nela est√£o escritas, em formato .txt, exemplos de entradas para serem testadas
 pelos programas;
 
-Os cÛdigos fonte e seus execut·veis se encontram no repositÛrio desse trabalho;
+Os c√≥digos fonte e seus execut√°veis se encontram no reposit√≥rio desse trabalho;
 
-Para a compilaÁ„o, os programas devem ser compilados da maneira padr„o do ambiente Dev-C++. Para tal, basta ir ao menu Executar, e clicar em Compilar. 
-Outros ambientes podem se dar por meios diferentes, como a tecla "Build", ou outros. Contudo, o princÌpio da compilaÁ„o È o mesmo.
-Uma vez compilado, o programa est· pronto para ser executado.
+Para a compila√ß√£o, os programas devem ser compilados da maneira padr√£o do ambiente Dev-C++. Para tal, basta ir ao menu Executar, e clicar em Compilar. 
+Outros ambientes podem se dar por meios diferentes, como a tecla "Build", ou outros. Contudo, o princ√≠pio da compila√ß√£o √© o mesmo.
+Uma vez compilado, o programa est√° pronto para ser executado.
