@@ -1,9 +1,9 @@
 -----------------------------------------------------READ ME--------------------------------------------------------------
 # Trabalho_1
 Trabalho 1 de LPA
-Aluno: 1)Bruno Henrique de Souza   nº USP: 9311685    GitHub User Name: bruno2souza
+Aluno: 1) Bruno Henrique de Souza   nº USP: 9311685    GitHub User Name: bruno2souza
 
-2)Bruno Ávila  nº USP: 9012667
+2) Bruno Ávila  nº USP: 9012667
 
 ==== INSTRUÇÔES DE USO DOS PROGRAMAS ====
 
